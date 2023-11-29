@@ -7,7 +7,7 @@ function generateMadLib() {
     const landmark = document.getElementById('landmark').value;
 
     // Generate Mad Lib
-    const madLib = `the ${city} which ${rooms} are full of ${food} is yummy ${hotel} in flagstaff near ${landmark}.`;
+    const madLib = `the ${city} i stayed for my vaction which ${rooms} are full of ${food} which is yummy ${hotel} in USA near to the city ${landmark}.`;
 
     // Open a new window and display the result
     const newWindow = window.open('', '_blank');
